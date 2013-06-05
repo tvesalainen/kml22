@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" version="2.1"
+      xmlns:kml="http://www.opengis.net/kml/2.2"
+      xmlns:atom="http://www.w3.org/2005/Atom">
+
+  <bindings schemaLocation="http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd">
+    <schemaBindings>
+      <package name="net.opengis.kml"/>
+    </schemaBindings>
+  </bindings>
+  <bindings schemaLocation="https://developers.google.com/kml/schema/kml22gx.xsd">
+    <schemaBindings>
+      <package name="net.opengis.kml.ex"/>
+    </schemaBindings>
+  </bindings>
+  <bindings schemaLocation="http://schemas.opengis.net/kml/2.2.0/atom-author-link.xsd">
+    <schemaBindings>
+      <package name="org.w3c.atom"/>
+    </schemaBindings>
+  </bindings>
+  <!--
+  <bindings schemaLocation="xAL.xsd">
+    <schemaBindings>
+      <package name="org.oasis.xal"/>
+    </schemaBindings>
+  </bindings>
+  -->
+  <bindings scd="kml:scale">
+    <class name="scaleliteral"/>
+  </bindings>
+  <bindings scd="kml:snippet">
+    <class name="snippetliteral"/>
+  </bindings>
+  <bindings scd="kml:Snippet">
+    <property name="snippetDeprecated"/>
+  </bindings>
+  <bindings scd="atom:link">
+    <property name="atomLink"/>
+  </bindings>
+</bindings>
