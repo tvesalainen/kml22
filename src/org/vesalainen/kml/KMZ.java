@@ -7,6 +7,8 @@ package org.vesalainen.kml;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -67,13 +69,22 @@ public class KMZ extends KML
         }
     }
 
+    public void write(File file) throws IOException
+    {
+        try (FileOutputStream fos = new FileOutputStream(file))
+        {
+            write(fos);
+        }
+    }
     public void write(OutputStream fos) throws IOException
     {
         try (ZipOutputStream zos = new ZipOutputStream(fos))
         {
-            Writer out = new OutputStreamWriter(zos, "UTF-8");
             zos.putNextEntry(new ZipEntry("doc.kml"));
-            write(out);
+            try (Writer out = new OutputStreamWriter(zos, "UTF-8"))
+            {
+                write(out);
+            }
         }
     }
 }

@@ -32,11 +32,11 @@ public abstract class FeatureVisitor<C>
     }
     public void visit(AbstractFeatureType feature, C ctx)
     {
-        handleTimePrimitive(feature, ctx);
         if (feature instanceof FolderType)
         {
             FolderType folder = (FolderType) feature;
             ctx = startOf(folder, ctx);
+            handleTimePrimitive(feature, ctx);
             for (JAXBElement<? extends AbstractFeatureType> ft : folder.getAbstractFeatureGroup())
             {
                 visit(ft.getValue(), ctx);
@@ -48,6 +48,7 @@ public abstract class FeatureVisitor<C>
         {
             DocumentType document = (DocumentType) feature;
             ctx = startOf(document, ctx);
+            handleTimePrimitive(feature, ctx);
             for (JAXBElement<? extends AbstractFeatureType> ft : document.getAbstractFeatureGroup())
             {
                 visit(ft.getValue(), ctx);
@@ -59,6 +60,7 @@ public abstract class FeatureVisitor<C>
         {
             PlacemarkType placemark = (PlacemarkType) feature;
             ctx = startOf(placemark, ctx);
+            handleTimePrimitive(feature, ctx);
             handleGeometry(placemark, ctx);
             endOf(placemark, ctx);
         }

@@ -20,6 +20,7 @@ import javax.xml.datatype.DatatypeFactory;
 import net.opengis.kml.AbstractFeatureType;
 import net.opengis.kml.KmlType;
 import net.opengis.kml.LinkType;
+import net.opengis.kml.LookAtType;
 import net.opengis.kml.NetworkLinkType;
 import net.opengis.kml.ObjectFactory;
 
@@ -84,10 +85,26 @@ public class KML
     {
         return dtFactory;
     }
+    /**
+     * @deprecated 
+     * @return 
+     */
+    public JAXBElement<LookAtType> createLookAt()
+    {
+        return factory.createLookAt(factory.createLookAtType());
+    }
+    /**
+     * @deprecated 
+     * @return 
+     */
     public JAXBElement<NetworkLinkType> createNetworkLink()
     {
         return factory.createNetworkLink(factory.createNetworkLinkType());
     }
+    /**
+     * @deprecated 
+     * @return 
+     */
     public LinkType createLink()
     {
         return factory.createLinkType();
