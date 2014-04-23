@@ -1,0 +1,7 @@
+
+.svn/
+build/
+dist/
+*.jasm
+doc-files/
+/target/
