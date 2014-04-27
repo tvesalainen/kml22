@@ -21,7 +21,7 @@ import java.util.zip.ZipOutputStream;
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
-import net.opengis.kml.KmlType;
+import org.vesalainen.repacked.net.opengis.kml.KmlType;
 
 /**
  * @author Timo Vesalainen

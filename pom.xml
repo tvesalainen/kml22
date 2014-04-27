@@ -6,8 +6,31 @@
     <version>2.2</version>
     <packaging>jar</packaging>
 
-    <name>KML</name>
-    <url>http://maven.apache.org</url>
+    <name>KML Helper Library</name>
+    <description>
+        KML Helper Library. KML jaxb binding is build from attached xsd files. 
+        Couldn't recompile it with jaxb2-maven-plugin.
+    </description>
+    <url>https://github.com/tvesalainen/${project.artifactId}</url>
+    <licenses>
+        <license>
+            <name>GNU General Public License, Version 3.0</name>
+            <url>http://www.gnu.org/licenses</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <connection>scm:git:git://github.com/tvesalainen/${project.artifactId}</connection>
+        <developerConnection>scm:git:git://github.com/tvesalainen/${project.artifactId}</developerConnection>
+        <url>https://github.com/tvesalainen/${project.artifactId}</url>
+    </scm>    
+    <developers>
+        <developer>
+            <name>Timo Vesalainen</name>
+            <email>timo.vesalainen@iki.fi</email>
+            <url>https://github.com/tvesalainen</url>
+        </developer>
+    </developers>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

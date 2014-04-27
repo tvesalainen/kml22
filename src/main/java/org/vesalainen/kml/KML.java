@@ -17,12 +17,12 @@ import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 import javax.xml.datatype.DatatypeConfigurationException;
 import javax.xml.datatype.DatatypeFactory;
-import net.opengis.kml.AbstractFeatureType;
-import net.opengis.kml.KmlType;
-import net.opengis.kml.LinkType;
-import net.opengis.kml.LookAtType;
-import net.opengis.kml.NetworkLinkType;
-import net.opengis.kml.ObjectFactory;
+import org.vesalainen.repacked.net.opengis.kml.AbstractFeatureType;
+import org.vesalainen.repacked.net.opengis.kml.KmlType;
+import org.vesalainen.repacked.net.opengis.kml.LinkType;
+import org.vesalainen.repacked.net.opengis.kml.LookAtType;
+import org.vesalainen.repacked.net.opengis.kml.NetworkLinkType;
+import org.vesalainen.repacked.net.opengis.kml.ObjectFactory;
 
 /**
  * @author Timo Vesalainen

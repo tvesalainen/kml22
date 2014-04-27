@@ -8,16 +8,16 @@ package org.vesalainen.kml;
 import java.io.File;
 import java.util.List;
 import javax.xml.bind.JAXBElement;
-import net.opengis.kml.AbstractFeatureType;
-import net.opengis.kml.DocumentType;
-import net.opengis.kml.FolderType;
-import net.opengis.kml.LineStringType;
-import net.opengis.kml.LinearRingType;
-import net.opengis.kml.PlacemarkType;
-import net.opengis.kml.PointType;
-import net.opengis.kml.PolygonType;
-import net.opengis.kml.TimeSpanType;
-import net.opengis.kml.TimeStampType;
+import org.vesalainen.repacked.net.opengis.kml.AbstractFeatureType;
+import org.vesalainen.repacked.net.opengis.kml.DocumentType;
+import org.vesalainen.repacked.net.opengis.kml.FolderType;
+import org.vesalainen.repacked.net.opengis.kml.LineStringType;
+import org.vesalainen.repacked.net.opengis.kml.LinearRingType;
+import org.vesalainen.repacked.net.opengis.kml.PlacemarkType;
+import org.vesalainen.repacked.net.opengis.kml.PointType;
+import org.vesalainen.repacked.net.opengis.kml.PolygonType;
+import org.vesalainen.repacked.net.opengis.kml.TimeSpanType;
+import org.vesalainen.repacked.net.opengis.kml.TimeStampType;
 
 /**
  * @author Timo Vesalainen
