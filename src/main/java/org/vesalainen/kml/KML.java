@@ -38,7 +38,7 @@ public class KML
     {
         try
         {
-            jaxbCtx = JAXBContext.newInstance("net.opengis.kml");
+            jaxbCtx = JAXBContext.newInstance("org.vesalainen.repacked.net.opengis.kml");
             factory = new ObjectFactory();
             dtFactory = DatatypeFactory.newInstance();
         }

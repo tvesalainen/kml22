@@ -11,7 +11,7 @@
     <version>1.0.1</version>
     <packaging>jar</packaging>
 
-    <name>KML Helper Library</name>
+    <name>KML 2.2 Helper Library</name>
     <description>
         KML Helper Library. KML jaxb binding is build from attached xsd files. 
         Couldn't recompile it with jaxb2-maven-plugin.
@@ -72,4 +72,12 @@
             </plugin>        
         </plugins>
     </build>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>
