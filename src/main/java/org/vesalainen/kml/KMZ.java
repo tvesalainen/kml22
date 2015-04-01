@@ -67,7 +67,11 @@ public class KMZ extends KML
             kml = (JAXBElement<KmlType>) unmarshaller.unmarshal(zis); //NOI18N
         }
     }
-
+    /**
+     * Writes kmz content to file
+     * @param file
+     * @throws IOException 
+     */
     public void write(File file) throws IOException
     {
         try (FileOutputStream fos = new FileOutputStream(file))
@@ -75,6 +79,11 @@ public class KMZ extends KML
             write(fos);
         }
     }
+    /**
+     * Writes kmz content to output stream. Closes stream after successful write
+     * @param fos
+     * @throws IOException 
+     */
     public void write(OutputStream fos) throws IOException
     {
         try (ZipOutputStream zos = new ZipOutputStream(fos))
@@ -86,4 +95,17 @@ public class KMZ extends KML
             }
         }
     }
+    /**
+     * Writes kmz content to output stream. 
+     * @param fos
+     * @throws IOException 
+     */
+    public void writeTo(OutputStream fos) throws IOException
+    {
+        ZipOutputStream zos = new ZipOutputStream(fos);
+        zos.putNextEntry(new ZipEntry("doc.kml"));
+        super.write(zos);
+        zos.finish();
+    }
+    
 }

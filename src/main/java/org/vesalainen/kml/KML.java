@@ -9,6 +9,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.io.Writer;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBElement;
@@ -119,6 +120,18 @@ public class KML
         {
             Marshaller marshaller = jaxbCtx.createMarshaller();
             marshaller.marshal(kml, writer);
+        }
+        catch (JAXBException ex)
+        {
+            throw new IOException(ex);
+        }
+    }
+    public void write(OutputStream out) throws IOException
+    {
+        try
+        {
+            Marshaller marshaller = jaxbCtx.createMarshaller();
+            marshaller.marshal(kml, out);
         }
         catch (JAXBException ex)
         {
