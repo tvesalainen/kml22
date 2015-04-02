@@ -3,7 +3,7 @@
     <parent>
         <groupId>org.vesalainen</groupId>
         <artifactId>parent</artifactId>
-        <version>1.0.2</version>
+        <version>1.0.3</version>
     </parent>    
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.vesalainen.kml</groupId>
@@ -16,6 +16,9 @@
         KML Helper Library. KML jaxb binding is build from attached xsd files. 
         Couldn't recompile it with jaxb2-maven-plugin.
     </description>
+    <properties>
+        <additionalparam>-Xdoclint:none</additionalparam>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
