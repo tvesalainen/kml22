@@ -24,15 +24,15 @@ import org.vesalainen.repacked.net.opengis.kml.AbstractObjectType;
  * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
- * &lt;complexType name="PlaylistType">
- *   &lt;complexContent>
- *     &lt;extension base="{http://www.opengis.net/kml/2.2}AbstractObjectType">
- *       &lt;sequence>
- *         &lt;element ref="{http://www.google.com/kml/ext/2.2}AbstractTourPrimitiveGroup" maxOccurs="unbounded" minOccurs="0"/>
- *       &lt;/sequence>
- *     &lt;/extension>
- *   &lt;/complexContent>
- * &lt;/complexType>
+ * &lt;complexType name="PlaylistType"&gt;
+ *   &lt;complexContent&gt;
+ *     &lt;extension base="{http://www.opengis.net/kml/2.2}AbstractObjectType"&gt;
+ *       &lt;sequence&gt;
+ *         &lt;element ref="{http://www.google.com/kml/ext/2.2}AbstractTourPrimitiveGroup" maxOccurs="unbounded" minOccurs="0"/&gt;
+ *       &lt;/sequence&gt;
+ *     &lt;/extension&gt;
+ *   &lt;/complexContent&gt;
+ * &lt;/complexType&gt;
  * </pre>
  * 
  * 

@@ -30,38 +30,38 @@ import org.vesalainen.repacked.org.w3c.atom.Link;
  * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
- * &lt;complexType name="AbstractFeatureType">
- *   &lt;complexContent>
- *     &lt;extension base="{http://www.opengis.net/kml/2.2}AbstractObjectType">
- *       &lt;sequence>
- *         &lt;element ref="{http://www.opengis.net/kml/2.2}name" minOccurs="0"/>
- *         &lt;element ref="{http://www.opengis.net/kml/2.2}visibility" minOccurs="0"/>
- *         &lt;element ref="{http://www.opengis.net/kml/2.2}open" minOccurs="0"/>
- *         &lt;element ref="{http://www.w3.org/2005/Atom}author" minOccurs="0"/>
- *         &lt;element ref="{http://www.w3.org/2005/Atom}link" minOccurs="0"/>
- *         &lt;element ref="{http://www.opengis.net/kml/2.2}address" minOccurs="0"/>
- *         &lt;element ref="{urn:oasis:names:tc:ciq:xsdschema:xAL:2.0}AddressDetails" minOccurs="0"/>
- *         &lt;element ref="{http://www.opengis.net/kml/2.2}phoneNumber" minOccurs="0"/>
- *         &lt;choice>
- *           &lt;element ref="{http://www.opengis.net/kml/2.2}Snippet" minOccurs="0"/>
- *           &lt;element ref="{http://www.opengis.net/kml/2.2}snippet" minOccurs="0"/>
- *         &lt;/choice>
- *         &lt;element ref="{http://www.opengis.net/kml/2.2}description" minOccurs="0"/>
- *         &lt;element ref="{http://www.opengis.net/kml/2.2}AbstractViewGroup" minOccurs="0"/>
- *         &lt;element ref="{http://www.opengis.net/kml/2.2}AbstractTimePrimitiveGroup" minOccurs="0"/>
- *         &lt;element ref="{http://www.opengis.net/kml/2.2}styleUrl" minOccurs="0"/>
- *         &lt;element ref="{http://www.opengis.net/kml/2.2}AbstractStyleSelectorGroup" maxOccurs="unbounded" minOccurs="0"/>
- *         &lt;element ref="{http://www.opengis.net/kml/2.2}Region" minOccurs="0"/>
- *         &lt;choice>
- *           &lt;element ref="{http://www.opengis.net/kml/2.2}Metadata" minOccurs="0"/>
- *           &lt;element ref="{http://www.opengis.net/kml/2.2}ExtendedData" minOccurs="0"/>
- *         &lt;/choice>
- *         &lt;element ref="{http://www.opengis.net/kml/2.2}AbstractFeatureSimpleExtensionGroup" maxOccurs="unbounded" minOccurs="0"/>
- *         &lt;element ref="{http://www.opengis.net/kml/2.2}AbstractFeatureObjectExtensionGroup" maxOccurs="unbounded" minOccurs="0"/>
- *       &lt;/sequence>
- *     &lt;/extension>
- *   &lt;/complexContent>
- * &lt;/complexType>
+ * &lt;complexType name="AbstractFeatureType"&gt;
+ *   &lt;complexContent&gt;
+ *     &lt;extension base="{http://www.opengis.net/kml/2.2}AbstractObjectType"&gt;
+ *       &lt;sequence&gt;
+ *         &lt;element ref="{http://www.opengis.net/kml/2.2}name" minOccurs="0"/&gt;
+ *         &lt;element ref="{http://www.opengis.net/kml/2.2}visibility" minOccurs="0"/&gt;
+ *         &lt;element ref="{http://www.opengis.net/kml/2.2}open" minOccurs="0"/&gt;
+ *         &lt;element ref="{http://www.w3.org/2005/Atom}author" minOccurs="0"/&gt;
+ *         &lt;element ref="{http://www.w3.org/2005/Atom}link" minOccurs="0"/&gt;
+ *         &lt;element ref="{http://www.opengis.net/kml/2.2}address" minOccurs="0"/&gt;
+ *         &lt;element ref="{urn:oasis:names:tc:ciq:xsdschema:xAL:2.0}AddressDetails" minOccurs="0"/&gt;
+ *         &lt;element ref="{http://www.opengis.net/kml/2.2}phoneNumber" minOccurs="0"/&gt;
+ *         &lt;choice&gt;
+ *           &lt;element ref="{http://www.opengis.net/kml/2.2}Snippet" minOccurs="0"/&gt;
+ *           &lt;element ref="{http://www.opengis.net/kml/2.2}snippet" minOccurs="0"/&gt;
+ *         &lt;/choice&gt;
+ *         &lt;element ref="{http://www.opengis.net/kml/2.2}description" minOccurs="0"/&gt;
+ *         &lt;element ref="{http://www.opengis.net/kml/2.2}AbstractViewGroup" minOccurs="0"/&gt;
+ *         &lt;element ref="{http://www.opengis.net/kml/2.2}AbstractTimePrimitiveGroup" minOccurs="0"/&gt;
+ *         &lt;element ref="{http://www.opengis.net/kml/2.2}styleUrl" minOccurs="0"/&gt;
+ *         &lt;element ref="{http://www.opengis.net/kml/2.2}AbstractStyleSelectorGroup" maxOccurs="unbounded" minOccurs="0"/&gt;
+ *         &lt;element ref="{http://www.opengis.net/kml/2.2}Region" minOccurs="0"/&gt;
+ *         &lt;choice&gt;
+ *           &lt;element ref="{http://www.opengis.net/kml/2.2}Metadata" minOccurs="0"/&gt;
+ *           &lt;element ref="{http://www.opengis.net/kml/2.2}ExtendedData" minOccurs="0"&gt;&gt;
+ *         &lt;/choice&gt;
+ *         &lt;element ref="{http://www.opengis.net/kml/2.2}AbstractFeatureSimpleExtensionGroup" maxOccurs="unbounded" minOccurs="0"/&gt;
+ *         &lt;element ref="{http://www.opengis.net/kml/2.2}AbstractFeatureObjectExtensionGroup" maxOccurs="unbounded" minOccurs="0"/&gt;
+ *       &lt;/sequence&gt;
+ *     &lt;/extension&gt;
+ *   &lt;/complexContent&gt;
+ * &lt;/complexType&gt;
  * </pre>
  * 
  * 

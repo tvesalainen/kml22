@@ -19,14 +19,14 @@ import javax.xml.bind.annotation.XmlType;
  * <p>The following schema fragment specifies the expected content contained within this class.
  * <p>
  * <pre>
- * &lt;simpleType name="listItemTypeEnumType">
- *   &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
- *     &lt;enumeration value="radioFolder"/>
- *     &lt;enumeration value="check"/>
- *     &lt;enumeration value="checkHideChildren"/>
- *     &lt;enumeration value="checkOffOnly"/>
- *   &lt;/restriction>
- * &lt;/simpleType>
+ * &lt;simpleType name="listItemTypeEnumType"&gt;
+ *   &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string"&gt;
+ *     &lt;enumeration value="radioFolder"/&gt;
+ *     &lt;enumeration value="check"/&gt;
+ *     &lt;enumeration value="checkHideChildren"/&gt;
+ *     &lt;enumeration value="checkOffOnly"/&gt;
+ *   &lt;/restriction&gt;
+ * &lt;/simpleType&gt;
  * </pre>
  * 
  */

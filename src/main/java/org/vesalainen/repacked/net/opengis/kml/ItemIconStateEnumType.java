@@ -19,16 +19,16 @@ import javax.xml.bind.annotation.XmlType;
  * <p>The following schema fragment specifies the expected content contained within this class.
  * <p>
  * <pre>
- * &lt;simpleType name="itemIconStateEnumType">
- *   &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
- *     &lt;enumeration value="open"/>
- *     &lt;enumeration value="closed"/>
- *     &lt;enumeration value="error"/>
- *     &lt;enumeration value="fetching0"/>
- *     &lt;enumeration value="fetching1"/>
- *     &lt;enumeration value="fetching2"/>
- *   &lt;/restriction>
- * &lt;/simpleType>
+ * &lt;simpleType name="itemIconStateEnumType"&gt;
+ *   &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string"&gt;
+ *     &lt;enumeration value="open"/&gt;
+ *     &lt;enumeration value="closed"/&gt;
+ *     &lt;enumeration value="error"/&gt;
+ *     &lt;enumeration value="fetching0"/&gt;
+ *     &lt;enumeration value="fetching1"/&gt;
+ *     &lt;enumeration value="fetching2"/&gt;
+ *   &lt;/restriction&gt;
+ * &lt;/simpleType&gt;
  * </pre>
  * 
  */

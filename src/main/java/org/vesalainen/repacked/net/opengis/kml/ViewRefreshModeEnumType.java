@@ -19,14 +19,14 @@ import javax.xml.bind.annotation.XmlType;
  * <p>The following schema fragment specifies the expected content contained within this class.
  * <p>
  * <pre>
- * &lt;simpleType name="viewRefreshModeEnumType">
- *   &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
- *     &lt;enumeration value="never"/>
- *     &lt;enumeration value="onRequest"/>
- *     &lt;enumeration value="onStop"/>
- *     &lt;enumeration value="onRegion"/>
- *   &lt;/restriction>
- * &lt;/simpleType>
+ * &lt;simpleType name="viewRefreshModeEnumType"&gt;
+ *   &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string"&gt;
+ *     &lt;enumeration value="never"/&gt;
+ *     &lt;enumeration value="onRequest"/&gt;
+ *     &lt;enumeration value="onStop"/&gt;
+ *     &lt;enumeration value="onRegion"/&gt;
+ *   &lt;/restriction&gt;
+ * &lt;/simpleType&gt;
  * </pre>
  * 
  */

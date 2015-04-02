@@ -25,17 +25,17 @@ import org.vesalainen.repacked.net.opengis.kml.LookAtType;
  * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
- * &lt;complexType name="FlyToType">
- *   &lt;complexContent>
- *     &lt;extension base="{http://www.google.com/kml/ext/2.2}AbstractTourPrimitiveType">
- *       &lt;sequence>
- *         &lt;element ref="{http://www.google.com/kml/ext/2.2}duration" minOccurs="0"/>
- *         &lt;element ref="{http://www.google.com/kml/ext/2.2}flyToMode" minOccurs="0"/>
- *         &lt;element ref="{http://www.opengis.net/kml/2.2}AbstractViewGroup" minOccurs="0"/>
- *       &lt;/sequence>
- *     &lt;/extension>
- *   &lt;/complexContent>
- * &lt;/complexType>
+ * &lt;complexType name="FlyToType"&gt;
+ *   &lt;complexContent&gt;
+ *     &lt;extension base="{http://www.google.com/kml/ext/2.2}AbstractTourPrimitiveType"&gt;
+ *       &lt;sequence&gt;
+ *         &lt;element ref="{http://www.google.com/kml/ext/2.2}duration" minOccurs="0"/&gt;
+ *         &lt;element ref="{http://www.google.com/kml/ext/2.2}flyToMode" minOccurs="0"/&gt;
+ *         &lt;element ref="{http://www.opengis.net/kml/2.2}AbstractViewGroup" minOccurs="0"/&gt;
+ *       &lt;/sequence&gt;
+ *     &lt;/extension&gt;
+ *   &lt;/complexContent&gt;
+ * &lt;/complexType&gt;
  * </pre>
  * 
  * 

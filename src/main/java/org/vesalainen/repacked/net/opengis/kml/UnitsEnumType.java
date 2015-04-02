@@ -19,13 +19,13 @@ import javax.xml.bind.annotation.XmlType;
  * <p>The following schema fragment specifies the expected content contained within this class.
  * <p>
  * <pre>
- * &lt;simpleType name="unitsEnumType">
- *   &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
- *     &lt;enumeration value="fraction"/>
- *     &lt;enumeration value="pixels"/>
- *     &lt;enumeration value="insetPixels"/>
- *   &lt;/restriction>
- * &lt;/simpleType>
+ * &lt;simpleType name="unitsEnumType"&gt;
+ *   &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string"&gt;
+ *     &lt;enumeration value="fraction"/&gt;
+ *     &lt;enumeration value="pixels"/&gt;
+ *     &lt;enumeration value="insetPixels"/&gt;
+ *   &lt;/restriction&gt;
+ * &lt;/simpleType&gt;
  * </pre>
  * 
  */

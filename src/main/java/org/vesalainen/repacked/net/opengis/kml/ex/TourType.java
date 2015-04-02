@@ -21,15 +21,15 @@ import org.vesalainen.repacked.net.opengis.kml.AbstractFeatureType;
  * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
- * &lt;complexType name="TourType">
- *   &lt;complexContent>
- *     &lt;extension base="{http://www.opengis.net/kml/2.2}AbstractFeatureType">
- *       &lt;sequence>
- *         &lt;element ref="{http://www.google.com/kml/ext/2.2}Playlist" minOccurs="0"/>
- *       &lt;/sequence>
- *     &lt;/extension>
- *   &lt;/complexContent>
- * &lt;/complexType>
+ * &lt;complexType name="TourType"&gt;
+ *   &lt;complexContent&gt;
+ *     &lt;extension base="{http://www.opengis.net/kml/2.2}AbstractFeatureType"&gt;
+ *       &lt;sequence&gt;
+ *         &lt;element ref="{http://www.google.com/kml/ext/2.2}Playlist" minOccurs="0"/&gt;
+ *       &lt;/sequence&gt;
+ *     &lt;/extension&gt;
+ *   &lt;/complexContent&gt;
+ * &lt;/complexType&gt;
  * </pre>
  * 
  * 

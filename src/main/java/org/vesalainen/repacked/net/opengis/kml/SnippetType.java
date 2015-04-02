@@ -21,13 +21,13 @@ import javax.xml.bind.annotation.XmlValue;
  * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
- * &lt;complexType name="SnippetType">
- *   &lt;simpleContent>
+ * &lt;complexType name="SnippetType"&gt;
+ *   &lt;simpleContent&gt;
  *     &lt;extension base="&lt;http://www.w3.org/2001/XMLSchema>string">
- *       &lt;attribute name="maxLines" type="{http://www.w3.org/2001/XMLSchema}int" default="2" />
- *     &lt;/extension>
- *   &lt;/simpleContent>
- * &lt;/complexType>
+ *       &lt;attribute name="maxLines" type="{http://www.w3.org/2001/XMLSchema}int" default="2" /&gt;
+ *     &lt;/extension&gt;
+ *   &lt;/simpleContent&gt;
+ * &lt;/complexType&gt;
  * </pre>
  * 
  * 
