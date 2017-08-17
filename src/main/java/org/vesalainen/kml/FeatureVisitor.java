@@ -21,7 +21,7 @@ import org.vesalainen.repacked.net.opengis.kml.TimeStampType;
 
 /**
  *
- * @author tkv
+ * @author Timo Vesalainen <timo.vesalainen@iki.fi>
  */
 public abstract class FeatureVisitor<C>
 {
